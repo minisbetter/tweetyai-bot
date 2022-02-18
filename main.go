@@ -22,7 +22,7 @@ const (
 	ACCESS_TOKEN_SECRET = ""
 	URL                 = "https://us-central1-faketweet-3818e.cloudfunctions.net/generateTweetCallable"
 	DATA                = "{\"data\":{\"username\":\"%s\"}}"
-  USERNAME            = "blobnom"
+        USERNAME            = "blobnom"
 )
 
 var api *anaconda.TwitterApi
